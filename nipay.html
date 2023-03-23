@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>nipay</title>
+    <link rel="stylesheet" type="text/css" href="nipay.css">
+    <script src="https://www.paypal.com/sdk/js?client-id=geojogu@gmail.com"></script>
+    <script src="nipay.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>nipay</h1>
+      <form id="payment-form">
+        <label for="code">Enter Code:</label>
+        <input type="text" id="code" name="code" required>
+        <button type="submit">Pay Now</button>
+      </form>
+      <div id="payment-message"></div>
+      <div id="paypal-button-container"></div>
+    </div>
+  </body>
+</html>
