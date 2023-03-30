@@ -1,0 +1,11 @@
+{
+  "name": "nipay-site",
+  "version": "1.0.0",
+  "description": "My awesome site",
+  "scripts": {
+    "build": "echo 'Nipay build'"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
