@@ -1,21 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>nipay</title>
-    <link rel="stylesheet" type="text/css" href="nipay.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nipay online</title>
+    <link rel="stylesheet" href="nipay.css" />
     <script src="https://www.paypal.com/sdk/js?client-id=geojogu@gmail.com"></script>
-    <script src="nipay.js"></script>
   </head>
   <body>
+    <!-- id="nipay"-->
+      <header>
+        <div class="container">
+          <nav class="navigation">
+            <a href="index.html" class="logo">
+              <img src="images/logo2.png" alt="Logo" class="logo-img" />
+            </a>
+            <ul class="nav_menu">
+              <div class="nav-menu_main">
+                <li class="nav_list">
+                  <a href="#!" class="nav_link">Product</a>
+                </li>
+                <li class="nav_list">
+                  <a href="#!" class="nav_link">payments</a>
+                </li>
+                <li class="nav_list">
+                  <a href="#!" class="nav_link">Developers</a>
+                </li>
+                <li class="nav_list">
+                  <a href="#!" class="nav_link">Resources</a>
+                </li>
+              </div>
+              <div class="nav__tools">
+                  <a href="#!" class="btn">Log In</a>
+                  <a href="#!" class="btn btn-primary">Register</a>
+                  <div class="nav_menu_toggle">
+                    <ion-icon name="menu-outline" class="menu_toggle_icon"></ion-icon>
+                    <!-- <ion-icon name="close-outline"></ion-icon> -->
+
+                    </div>
+                  </div>
+                
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- nipay-content-starts -->
+      <div class="container">
+        <div class="nipay-container">
+            <div class="nipay-content">
+                <h1 class="heading">
+                    Nipay for paying your goods online
+                </h1>
+                <p class="paragraph">
+                    Nipay-solutions help you to; Accept and pay for your goods and services online.
+                </p>
+                <div class="btns">
+                    <a href="#!" class="btn btn-primary">Start Nipay</a>
+                    <a href="#!" class="btn btn-outline">Contact sales</a>
+                </div>
+            </div>
+            <div class="nipay-image">
+                <img src="images/section-image.png" alt="Nipay Image">
+            </div>
+        </div>
+      </div>
+      <!-- nipay-content-ends-->
+    </section>
+    <section id="features">
+        <div class="container">
+            <div class="features-container">
+                <div class="features-item">
+                    <div>
+                        <img src="images/icon-1.svg" alt="Icon">
+                    </div>
+                    <div class="features-item-content">
+                        <h3 class="features-item-heading">
+                            Pay like an elite
+                        </h3>
+                        <p class="paragraph">
+                            Securely pay for all your online transactions using Nipay.
+                        </p>
+                        <a href="#!" class="btn-secondary">More Info..</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <div class="container">
-      <h1>nipay</h1>
+      <h1>paypal</h1>
       <form id="payment-form">
         <label for="code">Enter Code:</label>
-        <input type="text" id="code" name="code" required>
+        <input type="text" id="code" name="code" required />
         <button type="submit">Pay Now</button>
       </form>
       <div id="payment-message"></div>
       <div id="paypal-button-container"></div>
     </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="nipay.js"></script>
   </body>
 </html>
